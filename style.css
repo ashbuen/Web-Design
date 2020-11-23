@@ -1,0 +1,20 @@
+
+h1 {
+    color: rgb(0, 197, 247);
+    text-align: center;
+    background-color: lightslategrey;
+}
+h2 {
+    color: rgb(65, 1, 1);
+    background-color: lightslategrey;
+}
+.parag {
+    color: rgb(5, 22, 180);
+    background-color: lightslategrey;
+    text-align: left;
+}
+
+section {
+    color: purple;
+    background-color: lightslategrey;
+}
