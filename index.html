@@ -7,18 +7,32 @@
     <link rel = "stylesheet" type="text/css" href = "style.css">
 </head>
 <body>
-    
-    <header>
-        <ul id = "nav" class = "nav"></ul>
-            <li><a href = "#MaxTemp">Max Temperature</a></li>
-            <li><a href = "#Humidity">Humidity</a></li>
-            <li><a href = "#Cloudiness">Cloudiness</a></li>
-            <li><a href = "#WindSpeed">Wind Speed</a></li>
-        <ul id = "nav" class = "nav2"></ul>
-            <li><a href = "#Comparison">Comparison</a></li>
-        <ul id = "nav" class = "nav2"></ul>
-            <li><a href = "#Data">Data</a></li>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#Comparison">Comparison <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Data">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#MaxTemperature">Max Temperature</a>
+                <a class="dropdown-item" href="#Humidity">Humidity</a>
+                <a class="dropdown-item" href="#Cloudiness">Cloudiness</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
     <h1>Latitude vs. X</h1>
     <h2>Welcome!</h2>
@@ -27,11 +41,10 @@
         and a dataset of over 500 cities was created. Using the dataset, MatPlotLib was used to plot city latitude versus multiple weather aspects such as: temperature, humidity, cloudiness, and wind speed. <br> 
         This site provides insight on the data by using the source data visualizations that were created along with an explanation/description of the correlation and trend seen.</p>
         <section>Click an image below to view more.</section>
-        <img src="Visualization/Fig1.png" alt="Latitude_vs_Temperature"/><br>
-        <img src="Visualization/Fig2.png" alt="Latitude_vs_Humidity"/><br>
-        <img src="Visualization/Fig3.png" alt="Latitude_vs_Cloudiness"/><br>
-        <img src="Visualization/Fig4.png" alt="Latitude_vs_Wind_Speed"/></br>
-
+            <img src="Visualization/Fig1.png" alt="Latitude_vs_Temperature"/>
+            <img src="Visualization/Fig2.png" alt="Latitude_vs_Humidity"/>
+            <img src="Visualization/Fig3.png" alt="Latitude_vs_Cloudiness"/>
+            <img src="Visualization/Fig4.png" alt="Latitude_vs_Wind_Speed"/>
 </body>
 
 </html>

@@ -24,3 +24,8 @@ section {
 body {
     background-color: lightslategray;
 }
+
+.nav {
+    color: maroon;
+    display: inline-block;
+}
