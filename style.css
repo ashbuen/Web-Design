@@ -2,7 +2,7 @@
 h1 {
     color: rgb(0, 197, 247);
     text-align: center;
-    background-color: lightslategrey;
+    background-blend-mode: saturation;
 }
 h2 {
     color: rgb(65, 1, 1);
@@ -19,4 +19,8 @@ section {
     color: purple;
     background-color: lightslategrey;
     font-size: 15px;
+}
+
+body {
+    background-color: lightslategray;
 }
