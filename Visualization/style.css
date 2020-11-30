@@ -25,7 +25,7 @@ body {
     background-color: lightslategray;
 }
 
-.nav {
+.navbar {
     color: maroon;
-    display: inline-block;
+    background-color: darkturquoise;
 }
