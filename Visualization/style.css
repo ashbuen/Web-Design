@@ -11,12 +11,13 @@ h2 {
 .parag {
     color: rgb(5, 22, 180);
     font-size: 20px;
-    background-color: lightslategrey;
+    background-color: darkturquoise;
     text-align: left;
 }
 
 section {
     color: purple;
+    text-align: left;
     background-color: lightslategrey;
     font-size: 15px;
 }
@@ -28,4 +29,11 @@ body {
 .navbar {
     color: maroon;
     background-color: darkturquoise;
+
 }
+
+.dataframe {
+    color: rgb(122, 1, 1);
+    background-color: rgb(3, 3, 3);
+}
+
