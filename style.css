@@ -6,6 +6,7 @@ h1 {
 }
 h2 {
     color: rgb(65, 1, 1);
+    text-align: left;
     background-color: lightslategrey;
 }
 .parag {
@@ -17,7 +18,7 @@ h2 {
 
 section {
     color: purple;
-    text-align: center;
+    text-align: left;
     background-color: lightslategrey;
     font-size: 15px;
 }
